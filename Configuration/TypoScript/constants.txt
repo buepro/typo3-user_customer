@@ -1,0 +1,204 @@
+# ---------------------------------------------------------- #
+# design
+# ---------------------------------------------------------- #
+
+[treeLevel = 0]
+page.theme.navigationstyle = default-transition
+page.theme.navigationtype = top
+[end]
+
+plugin.bootstrap_package {
+    settings {
+        less {
+            #border-radius-base = 0px
+
+            #body-bg = #fff
+            #text-color = @gray-dark
+            #link-color = @brand-primary
+            #link-hover-color = darken(@link-color, 15%)
+
+            #navbar-margin-bottom = @line-height-computed
+            #navbar-default-color = #333
+            #navbar-default-bg = #fff
+            #navbar-default-border = darken(@navbar-default-bg, 6.5%)
+            #navbar-default-link-color = lighten(@navbar-default-link-active-color,35%)
+            #navbar-default-link-hover-color = @navbar-default-link-active-color
+            #navbar-default-link-active-color = #333
+            #navbar-default-brand-color = @navbar-default-link-color
+            #navbar-default-brand-hover-color = @navbar-default-link-active-color
+            #navbar-default-toggle-hover-bg = transparent
+            #navbar-default-toggle-icon-bar-bg = @navbar-default-link-color
+            #navbar-default-toggle-border-color = transparent
+
+            #navbar-inverse-color = #ccc
+            #navbar-inverse-bg = #2b2b2b
+            #navbar-inverse-border = @navbar-inverse-bg
+            #navbar-inverse-link-color = darken(@navbar-inverse-link-active-color,25%)
+            #navbar-inverse-link-hover-color = @navbar-inverse-link-active-color
+            #navbar-inverse-link-hover-bg = transparent
+            #navbar-inverse-link-active-color = #fff
+            #navbar-inverse-link-active-bg = transparent
+            #navbar-inverse-link-disabled-color = #444
+            #navbar-inverse-link-disabled-bg = transparent
+            #navbar-inverse-brand-color = @navbar-inverse-link-color
+            #navbar-inverse-brand-hover-color = @navbar-inverse-link-active-color
+            #navbar-inverse-brand-hover-bg = transparent
+            #navbar-inverse-toggle-hover-bg = transparent
+            #navbar-inverse-toggle-icon-bar-bg = @navbar-inverse-link-color
+            #navbar-inverse-toggle-border-color = transparent
+
+            #jumbotron-color = contrast(@brand-primary)
+            #link-color = @brand-complementary
+            #dropdown-link-hover-color = contrast(@brand-primary)
+            #btn-primary-color = contrast(@brand-primary)
+        }
+    }
+}
+
+
+# ---------------------------------------------------------- #
+# templates
+# ---------------------------------------------------------- #
+user_customer {
+    page.fluidtemplate {
+        #layoutRootPath = EXT:user_customer/Resources/Private/Layouts/Page/
+        #partialRootPath = EXT:user_customer/Resources/Private/Partials/Page/
+        #templateRootPath = EXT:user_customer/Resources/Private/Templates/Page/
+    }
+    contentElement.fluidtemplate {
+        #layoutRootPath = EXT:user_customer/Resources/Private/Layouts/ContentElements/
+        #partialRootPath = EXT:user_customer/Resources/Private/Partials/ContentElements/
+        #templateRootPath = EXT:user_customer/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+# ---------------------------------------------------------- #
+# agency
+# ---------------------------------------------------------- #
+
+#pizpalue.agency.pageState = setup
+
+
+# ---------------------------------------------------------- #
+# customer
+# ---------------------------------------------------------- #
+
+pizpalue.customer {
+    commonName = Kunde
+    #commonEmail = info@typo3hof.ch
+}
+
+
+# ---------------------------------------------------------- #
+# colors
+# ---------------------------------------------------------- #
+
+plugin.bootstrap_package.settings.less {
+    #brand-primary = #1E9A00
+    #brand-secundary = #5300FF
+    #brand-complementary = #FF0000
+}
+
+# ---------------------------------------------------------- #
+# logo
+# ---------------------------------------------------------- #
+
+pizpalue.logo {
+    #file = EXT:pizpalue/Resources/Public/Images/logo.png
+    #fileInverted = EXT:pizpalue/Resources/Public/Images/logo_white.png
+    #width = 300
+    #height = 300
+}
+
+
+# ---------------------------------------------------------- #
+# menu
+# ---------------------------------------------------------- #
+
+pizpalue.menu {
+
+    meta {
+        #enable = 1
+        #navigationValue = 66
+        #navigationType = directory
+    }
+
+    language {
+        #enable = 1
+        #languageValue = 0,1,2
+        #codeOptionSplit = de || fr || en
+        #linkOptionSplit = &L=0 || &L=1 || &L=2
+        #useSrLanguageMenu = 0
+    }
+
+}
+
+#plugin.bootstrap_package.settings.less.navbar-height = 100px
+
+
+# ---------------------------------------------------------- #
+# appicons
+# ---------------------------------------------------------- #
+
+pizpalue.appIcon {
+
+    headerData (
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=zXd0483NpM">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=zXd0483NpM">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=zXd0483NpM">
+<link rel="manifest" href="/manifest.json?v=zXd0483NpM">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=zXd0483NpM" color="#1e9a00">
+<link rel="shortcut icon" href="/favicon.ico?v=zXd0483NpM">
+<meta name="theme-color" content="#1e9a00">
+     )
+
+}
+
+
+# ---------------------------------------------------------- #
+# storage
+# ---------------------------------------------------------- #
+
+pizpalue.storage {
+
+    #feUserPid = 2
+
+}
+
+
+# ---------------------------------------------------------- #
+# seo
+# ---------------------------------------------------------- #
+
+pizpalue.seo {
+    #metaDescription =
+    #metaKeywords =
+    #metaAuthor =
+    #google.siteVerification =
+    #google.trackingID =
+}
+
+
+# ---------------------------------------------------------- #
+# features
+# ---------------------------------------------------------- #
+
+pizpalue.features {
+	# useStyle = 1
+	# useCeAnimation = 0
+	# useCeScrollAnimation = 1
+}
+
+
+# ---------------------------------------------------------- #
+# various
+# ---------------------------------------------------------- #
+
+plugin.bootstrap_package_contentelements.header.defaultHeaderType = 1
+
+# under construction page
+[page|uid = 59]
+page.theme.navigationstyle = default-transition
+page.theme.navigationtype = top
+[end]
