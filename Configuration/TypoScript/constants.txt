@@ -2,11 +2,6 @@
 # design
 # ---------------------------------------------------------- #
 
-[treeLevel = 0]
-page.theme.navigationstyle = default-transition
-page.theme.navigationtype = top
-[end]
-
 plugin.bootstrap_package {
     settings {
         less {
