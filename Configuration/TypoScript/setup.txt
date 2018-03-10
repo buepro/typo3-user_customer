@@ -33,6 +33,9 @@ page {
     }
 }
 
+# in case more fonts are needed:
+# page.includeCSSLibs.googlewebfont = https://fonts.googleapis.com/css?family=Exo:700i|Hind:400,700
+# popup.includeCSSLibs.googlewebfont = https://fonts.googleapis.com/css?family=Exo:700i|Hind:400,700
 
 #=============#
 # various     #

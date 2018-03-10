@@ -5,6 +5,10 @@
 plugin.bootstrap_package {
     settings {
         less {
+            #google-webfont = 'Hind', sans-serif
+            #google-webfont = "Hind"
+            #google-webfont-weight = 400,700
+
             #border-radius-base = 0px
 
             #body-bg = #fff
