@@ -191,9 +191,3 @@ pizpalue.features {
 # ---------------------------------------------------------- #
 
 plugin.bootstrap_package_contentelements.header.defaultHeaderType = 1
-
-# under construction page
-[page|uid = 59]
-page.theme.navigationstyle = default-transition
-page.theme.navigationtype = top
-[end]
