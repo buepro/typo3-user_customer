@@ -1,50 +1,40 @@
 # ---------------------------------------------------------- #
 # design
 # ---------------------------------------------------------- #
-
 plugin.bootstrap_package {
     settings {
         less {
             #google-webfont = "Hind"
             #google-webfont-weight = 400,700
-            #font-family-base = "@{google-webfont}", sans-serif
+        }
+    }
+}
+#pizpalue.style.google-webfontfamily = {$plugin.bootstrap_package.settings.less.google-webfont}:{$plugin.bootstrap_package.settings.less.google-webfont-weight}
 
+plugin.bootstrap_package {
+    settings {
+        less {
             #border-radius-base = 0px
 
             #body-bg = #fff
+            #navbar-default-bg =
+            #footer-bg =
+
             #text-color = @gray-dark
             #link-color = @brand-primary
             #link-hover-color = darken(@link-color, 15%)
 
             #navbar-margin-bottom = @line-height-computed
             #navbar-default-color = #333
-            #navbar-default-bg = #fff
             #navbar-default-border = darken(@navbar-default-bg, 6.5%)
-            #navbar-default-link-color = lighten(@navbar-default-link-active-color,35%)
-            #navbar-default-link-hover-color = @navbar-default-link-active-color
-            #navbar-default-link-active-color = #333
+            #navbar-default-link-color =
+            #navbar-default-link-hover-color =
+            #navbar-default-link-active-color =
             #navbar-default-brand-color = @navbar-default-link-color
             #navbar-default-brand-hover-color = @navbar-default-link-active-color
             #navbar-default-toggle-hover-bg = transparent
             #navbar-default-toggle-icon-bar-bg = @navbar-default-link-color
             #navbar-default-toggle-border-color = transparent
-
-            #navbar-inverse-color = #ccc
-            #navbar-inverse-bg = #2b2b2b
-            #navbar-inverse-border = @navbar-inverse-bg
-            #navbar-inverse-link-color = darken(@navbar-inverse-link-active-color,25%)
-            #navbar-inverse-link-hover-color = @navbar-inverse-link-active-color
-            #navbar-inverse-link-hover-bg = transparent
-            #navbar-inverse-link-active-color = #fff
-            #navbar-inverse-link-active-bg = transparent
-            #navbar-inverse-link-disabled-color = #444
-            #navbar-inverse-link-disabled-bg = transparent
-            #navbar-inverse-brand-color = @navbar-inverse-link-color
-            #navbar-inverse-brand-hover-color = @navbar-inverse-link-active-color
-            #navbar-inverse-brand-hover-bg = transparent
-            #navbar-inverse-toggle-hover-bg = transparent
-            #navbar-inverse-toggle-icon-bar-bg = @navbar-inverse-link-color
-            #navbar-inverse-toggle-border-color = transparent
 
             #jumbotron-color = contrast(@brand-primary)
             #link-color = @brand-complementary
@@ -53,7 +43,6 @@ plugin.bootstrap_package {
         }
     }
 }
-
 
 # ---------------------------------------------------------- #
 # templates
