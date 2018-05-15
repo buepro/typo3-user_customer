@@ -65,7 +65,7 @@ user_customer {
 # agency
 # ---------------------------------------------------------- #
 
-#pizpalue.agency.pageState = setup
+#pizpalue.agency.isDebugMode = 1
 
 
 # ---------------------------------------------------------- #
@@ -102,8 +102,8 @@ plugin.bootstrap_package.settings.less {
 # ---------------------------------------------------------- #
 
 pizpalue.logo {
-    #file = EXT:pizpalue/Resources/Public/Images/logo.png
-    #fileInverted = EXT:pizpalue/Resources/Public/Images/logo_white.png
+    #file = EXT:user_customer/Resources/Public/Images/logo.png
+    #fileInverted = EXT:user_customer/Resources/Public/Images/logo_white.png
     #width = 300
     #height = 300
 }
