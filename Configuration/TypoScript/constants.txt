@@ -115,6 +115,11 @@ pizpalue.logo {
 
 pizpalue.menu {
 
+    main {
+        #navigationstyle = default-transition
+        #navigationtype = top
+    }
+
     meta {
         #enable = 1
         #navigationValue = 66
