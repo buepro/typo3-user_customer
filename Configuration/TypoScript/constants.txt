@@ -40,6 +40,11 @@ plugin.bootstrap_package {
             #link-color = @brand-complementary
             #dropdown-link-hover-color = contrast(@brand-primary)
             #btn-primary-color = contrast(@brand-primary)
+
+            #cookieconsent-zindex = 1080;
+            #cookieconsent-bg = @gray-lighter;
+            #cookieconsent-color = contrast(@cookieconsent-bg, black, white, 43%);
+            #cookieconsent-link-color = @brand-primary;
         }
     }
 }
@@ -187,9 +192,9 @@ pizpalue.seo {
 # ---------------------------------------------------------- #
 
 pizpalue.features {
-	# useStyle = 1
-	# useCeAnimation = 0
-	# useCeScrollAnimation = 1
+	#useStyle = 1
+	#useCeAnimation = 0
+	#useCeScrollAnimation = 1
 }
 
 
