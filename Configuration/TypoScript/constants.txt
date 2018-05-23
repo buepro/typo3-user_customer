@@ -24,6 +24,7 @@ plugin.bootstrap_package {
             #link-color = @brand-primary
             #link-hover-color = darken(@link-color, 15%)
 
+            #navbar-height = 70px
             #navbar-margin-bottom = @line-height-computed
             #navbar-default-color = #333
             #navbar-default-border = darken(@navbar-default-bg, 6.5%)
