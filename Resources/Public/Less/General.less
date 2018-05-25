@@ -4,6 +4,27 @@ ul.nav.nav-sidebar {
     }
 }
 
+/***************************************************************
+
+// affix for sidenav with side content
+// needs wrapping container with class uc-subnavaffix-wrap
+
+.subnav-wrap {
+    padding-top: 40px;
+    .affix {
+        top: 90px;
+    }
+    @media screen and (max-width: @screen-sm-max) {
+        padding-top: 0;
+        .affix {
+            position: relative;
+            top: auto;
+        }
+    }
+}
+***************************************************************/
+
+
 // @screen-xs-min: 480px
 // @screen-xs-max: (@screen-sm-min - 1)
 // @screen-sm-min: 768px
