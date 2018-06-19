@@ -20,7 +20,7 @@ lib.contentElement {
 page {
     includeCSS {
         #ucCss = EXT:user_customer/Resources/Public/Css/General.css
-        #ucLess = EXT:user_customer/Resources/Public/Less/General.less
+        ucLess = EXT:user_customer/Resources/Public/Less/General.less
         #ucBootstrapLess = EXT:user_customer/Resources/Public/Less/Bootstrap.less
         #ucPluginsLess = EXT:user_customer/Resources/Public/Less/Plugins.less
     }

@@ -204,3 +204,4 @@ pizpalue.features {
 # ---------------------------------------------------------- #
 
 plugin.bootstrap_package_contentelements.header.defaultHeaderType = 1
+page.theme.cookieconsent.content.href = 10
