@@ -200,6 +200,18 @@ pizpalue.features {
 
 
 # ---------------------------------------------------------- #
+# social icons
+# ---------------------------------------------------------- #
+
+pizpalue.customer.socialNetwork.facebook.link =
+pizpalue.customer.socialNetwork.twitter.link =
+pizpalue.customer.socialNetwork.linkedin.link =
+pizpalue.customer.socialNetwork.pinterest.link =
+pizpalue.customer.socialNetwork.instagram.link =
+pizpalue.customer.socialNetwork.xing.link =
+
+
+# ---------------------------------------------------------- #
 # various
 # ---------------------------------------------------------- #
 
