@@ -216,4 +216,9 @@ pizpalue.customer.socialNetwork.xing.link =
 # ---------------------------------------------------------- #
 
 plugin.bootstrap_package_contentelements.header.defaultHeaderType = 1
-page.theme.cookieconsent.content.href = 10
+page.theme.cookieconsent {
+    enable = 0
+    content.href = 10
+}
+
+
