@@ -1,6 +1,7 @@
 # ---------------------------------------------------------- #
-# design
+# bootstrap_package font
 # ---------------------------------------------------------- #
+
 plugin.bootstrap_package {
     settings {
         less {
@@ -10,6 +11,11 @@ plugin.bootstrap_package {
     }
 }
 #pizpalue.style.google-webfontfamily = {$plugin.bootstrap_package.settings.less.google-webfont}:{$plugin.bootstrap_package.settings.less.google-webfont-weight}
+
+
+# ---------------------------------------------------------- #
+# bootstrap_package colors
+# ---------------------------------------------------------- #
 
 plugin.bootstrap_package {
     settings {
@@ -72,15 +78,16 @@ user_customer {
 # ---------------------------------------------------------- #
 
 #pizpalue.agency.isDebugMode = 1
-#pizpalue.agency.reference = <span class="pp-agency-reference">Eine Webseite von <a href="http://www.popnet.ch/" title="PopNet Informatik AG" target="_blank">PopNet Informatik AG</a></span>
+#pizpalue.agency.reference = <span class="pp-agency-reference">Eine Webseite von <a href="http://www.buechler.pro/" title="buechler.pro | TYPO3 Webseiten" target="_blank">buechler.pro</a></span>
+
 
 # ---------------------------------------------------------- #
 # customer
 # ---------------------------------------------------------- #
 
 pizpalue.customer {
-    commonName = Kunde
-    #commonEmail = info@typo3hof.ch
+    #commonName = Allgemeiner Kundenname
+    #commonEmail = info@domain.ch
 }
 
 
@@ -89,8 +96,15 @@ pizpalue.customer {
 # ---------------------------------------------------------- #
 
 pizpalue.frame {
-    #revealFooter = 1
+    revealFooter = 1
 }
+
+[treeLevel = 0]
+pizpalue.menu.main {
+    navigationstyle = default-transition
+    navigationtype = top
+}
+[end]
 
 
 # ---------------------------------------------------------- #

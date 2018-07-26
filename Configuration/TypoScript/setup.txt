@@ -1,6 +1,7 @@
-#=============#
+#-------------#
 # lib object  #
-#=============#
+#-------------#
+
 lib.contentElement = FLUIDTEMPLATE
 lib.contentElement {
     layoutRootPaths {
@@ -14,9 +15,10 @@ lib.contentElement {
     }
 }
 
-#=============#
+
+#-------------#
 # page object #
-#=============#
+#-------------#
 page {
     includeCSS {
         #ucCss = EXT:user_customer/Resources/Public/Css/General.css
@@ -37,6 +39,15 @@ page {
 # page.includeCSSLibs.googlewebfont = https://fonts.googleapis.com/css?family=Exo:700i|Hind:400,700
 # popup.includeCSSLibs.googlewebfont = https://fonts.googleapis.com/css?family=Exo:700i|Hind:400,700
 
-#=============#
+
+#-------------#
 # various     #
-#=============#
+#-------------#
+
+# under construction page
+[page|uid = 59]
+page.10.dataProcessing.10.as = no-mainnavigation
+page.10.variables.rootPage >
+page.10.variables.rootPage = TEXT
+page.10.variables.rootPage.value = 59
+[end]
