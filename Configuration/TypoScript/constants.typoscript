@@ -1,7 +1,12 @@
 #=========================================================#
-# Agency
+# Admin
 #=========================================================#
 
+pizpalue.general {
+    #dateFormat = d.m.Y
+    #timeFormat = H:i
+    #dateTimeFormat = d.m.Y H:i
+}
 pizpalue.agency {
     #reference = <span class="pp-agency-reference">Eine Webseite von <a href="https://www.buechler.pro" title="buechler.pro | TYPO3-Webseiten ohne Grenzen, SEO, Informatik" target="_blank">buechler.pro</a></span>
     #isDebugMode = 0
