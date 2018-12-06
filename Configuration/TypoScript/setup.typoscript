@@ -44,3 +44,10 @@ page {
 [globalString = LIT:1 = {$pizpalue.agency.isDebugMode}]
     <INCLUDE_TYPOSCRIPT: source="FILE:EXT:user_customer/Configuration/TypoScript/Develop/setup.typoscript">
 [global]
+
+
+#=========================================================#
+# Customization
+#=========================================================#
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:user_customer/Configuration/TypoScript/Custom/setup.typoscript">

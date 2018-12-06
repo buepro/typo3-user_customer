@@ -266,3 +266,10 @@ page.meta {
     #keywords =
     #author =
 }
+
+
+#=========================================================#
+# Customization
+#=========================================================#
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:user_customer/Configuration/TypoScript/Custom/constants.typoscript">
