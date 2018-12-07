@@ -1,0 +1,30 @@
+//
+// bootstrap
+//
+@import "../../../../bootstrap_package/Resources/Public/Contrib/bootstrap4/scss/functions";
+@import "../../../../bootstrap_package/Resources/Public/Contrib/bootstrap4/scss/variables";
+@import "../../../../bootstrap_package/Resources/Public/Contrib/bootstrap4/scss/mixins";
+@import "../../../../bootstrap_package/Resources/Public/Contrib/bootstrap4/scss/utilities";
+//
+// pizpalue
+//
+@import "../../../../pizpalue/Resources/Public/Scss/Functions/functions";
+@import "../../../../pizpalue/Resources/Public/Scss/Mixins/mixins";
+@import "../../../../pizpalue/Resources/Public/Scss/Theme/variables";
+@import "../../../../bootstrap_package/Resources/Public/Scss/Theme/variables";
+
+//
+// footer
+//
+@include media-breakpoint-down(xs) {
+  footer {
+    .text-right,
+    .frame-type-social_links .sociallinks-list {
+      text-align: left !important;
+    }
+  }
+}
+
+//
+// various
+//
