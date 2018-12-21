@@ -2,7 +2,6 @@
 # Lib objects
 #=========================================================#
 
-lib.contentElement = FLUIDTEMPLATE
 lib.contentElement {
     layoutRootPaths {
         30 = {$user_customer.contentElement.fluidtemplate.layoutRootPath}
@@ -21,7 +20,7 @@ lib.contentElement {
 #=========================================================#
 
 page {
-    #includeCSS.ucGeneralScss = EXT:user_customer/Resources/Public/Scss/custom.scss
+    includeCSS.ucGeneralScss = EXT:user_customer/Resources/Public/Scss/custom.scss
     #includeJSFooter.ucGeneral = EXT:user_customer/Resources/Public/JavaScripts/Dist/jquery.general.min.js
 
     10 {
