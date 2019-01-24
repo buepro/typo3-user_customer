@@ -28,9 +28,34 @@ config.pageTitle.stdWrap.override.field = seo_title // title
 #=========================================================#
 
 page {
+    #---------------------------------------------------------#
+    # CSS/Scss
+    #---------------------------------------------------------#
     includeCSS.ucGeneralScss = EXT:user_customer/Resources/Public/Scss/custom.scss
+    #:::::::::::::::::::::::
+    #: Add own icon font containing pizpalue icons
+    #.
+    #includeCSSLibs {
+        #pizpalueicon >
+        #ucicon = EXT:pizpalue/Resources/Public/Fonts/pizpalueicon.min.css
+        #ucicon {
+        #    fontLoader {
+        #        families {
+        #            0 = UcIcon
+        #        }
+        #        enabled = 1
+        #    }
+        #}
+    #}
+
+    #---------------------------------------------------------#
+    # JS
+    #---------------------------------------------------------#
     #includeJSFooter.ucGeneral = EXT:user_customer/Resources/Public/JavaScripts/Dist/jquery.general.min.js
 
+    #---------------------------------------------------------#
+    # Template
+    #---------------------------------------------------------#
     10 {
         layoutRootPaths.3 = {$user_customer.page.fluidtemplate.layoutRootPath}
         templateRootPaths.3 = {$user_customer.page.fluidtemplate.templateRootPath}

@@ -15,9 +15,9 @@ module.exports = function(grunt) {
             doc: '<%= paths.root %>Documentation/'
         },
         cssmin: {
-            moosaicicon: {
-                src: '<%= paths.fonts %>moosaicicon.css',
-                dest: '<%= paths.fonts %>moosaicicon.min.css'
+            ucicon: {
+                src: '<%= paths.fonts %>ucicon.css',
+                dest: '<%= paths.fonts %>ucicon.min.css'
             }
         },
         uglify: {
@@ -41,13 +41,13 @@ module.exports = function(grunt) {
             },
         },
         webfont: {
-            moosaicicon: {
+            ucicon: {
                 src: '<%= paths.icons %>Font/*.svg',
                 dest: '<%= paths.fonts %>',
                 options: {
-                    font: 'moosaicicon',
+                    font: 'ucicon',
                     template: 'templates/font.css',
-                    fontFamilyName: 'MoosaicIcon',
+                    fontFamilyName: 'UcIcon',
                     engine: 'node',
                     autoHint: false,
                     htmlDemo: false,
@@ -101,6 +101,7 @@ module.exports = function(grunt) {
     grunt.registerTask('css', ['cssmin']);
     grunt.registerTask('js', ['uglify']);
     grunt.registerTask('doc', ['changelog']);
+    grunt.registerTask('iconfont', ['webfont','css']);
     grunt.registerTask('build', ['webfont','css','js','doc']);
     grunt.registerTask('default', ['build']);
 
