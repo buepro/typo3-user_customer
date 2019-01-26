@@ -97,12 +97,29 @@ page {
 # Font
 #=========================================================#
 
-page.theme.googleFont {
-    #enable = 1
-    #font = Source Sans Pro
-    #weight = 300,400,700
-}
+#page.theme.googleFont {
+#    enable = 1
+#    font = Source Sans Pro
+#    weight = 300,400,700
+#}
 
+#plugin.bootstrap_package {
+#    settings {
+#        scss {
+#            font-family-sans-serif = -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+#            font-family-monospace = SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+#            font-family-base = "#{$google-webfont}", sans-serif
+#            font-size-base = 1rem
+#            font-weight-lighter = 400
+#            font-weight-light = 400
+#            font-weight-normal = 400
+#            font-weight-bold = 700
+#            font-weight-bolder = 700
+#            headings-font-weight = 400
+#            lead-font-weight = 400
+#        }
+#    }
+#}
 
 #=========================================================#
 # Colors
