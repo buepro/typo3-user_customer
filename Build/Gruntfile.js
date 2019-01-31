@@ -70,6 +70,7 @@ module.exports = function(grunt) {
                     before: '2030-01-01',
                     dest: '<%= paths.doc %>Changelog.md',
                     logArguments: [
+                        'master..',
                         '--pretty=%ci %s (Commit %h by %an)',
                         '--no-merges',
                         '--abbrev-commit'
