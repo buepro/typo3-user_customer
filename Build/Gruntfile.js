@@ -75,8 +75,7 @@ module.exports = function(grunt) {
                         '--no-merges',
                         '--abbrev-commit'
                     ],
-                    template: '{{> features}}\n---\n**Hint:** The md-files might be viewed by ' +
-                        'http://md.paratte.ch/github-markdown-parser.php',
+                    template: '{{> features}}',
                     featureRegex: /^(.*)$/gim,
                     partials: {
                         features: '{{#if features}}{{#each features}}{{> feature}}{{/each}}{{else}}{{> empty}}{{/if}}\n',
