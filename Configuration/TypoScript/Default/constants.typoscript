@@ -22,8 +22,15 @@ pizpalue.agency {
 #=========================================================#
 
 pizpalue.customer {
-    #commonName = Allgemeiner Kundenname
-    #commonEmail =
+    commonName = Allgemeiner Kundenname
+    commonEmail =
+    commonPhone =
+    contactName = Allgemeiner Kundenname
+    contactPhone =
+    contactEmail =
+    contactAddress =
+    contactZip =
+    contactCity =
 }
 
 
