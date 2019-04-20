@@ -37,7 +37,7 @@ page {
     #.
     #includeCSSLibs {
         #pizpalueicon >
-        #ucicon = EXT:pizpalue/Resources/Public/Fonts/pizpalueicon.min.css
+        #ucicon = EXT:user_customer/Resources/Public/Fonts/ucicon.min.css
         #ucicon {
         #    fontLoader {
         #        families {
