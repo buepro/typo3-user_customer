@@ -1,9 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: roman
- * Date: 16/03/2019
- * Time: 12:37
+
+/*
+ * This file is part of the package buepro/user_customer.
+ *
+ * For the full copyright and license information, please read the
+ * LICENSE file that was distributed with this source code.
  */
 
 call_user_func(
