@@ -23,14 +23,14 @@ pizpalue.agency {
 
 pizpalue.customer {
     commonName = Allgemeiner Kundenname
-    commonEmail =
-    commonPhone =
+    commonEmail = info@domain.ch
+    commonPhone = 111 111 11 11
     contactName = Allgemeiner Kundenname
-    contactPhone =
-    contactEmail =
-    contactAddress =
-    contactZip =
-    contactCity =
+    contactPhone = 111 111 11 12
+    contactEmail = contact@domain.ch
+    contactAddress = Strasse 1
+    contactZip = 1111
+    contactCity = Ort
 }
 
 
