@@ -8,7 +8,7 @@ pizpalue.general {
     #dateTimeFormat = d.m.Y H:i
 }
 pizpalue.agency {
-    #name = Agency
+    name = Agentur
     #slogan = Slogan
     #link = https://www.terve.link
     #reference = <span class="pp-agency-reference">Eine Webseite von <a href="{$pizpalue.agency.link}" title="{$pizpalue.agency.name} | {$pizpalue.agency.slogan}" target="_blank">{$pizpalue.agency.name}</a></span>
