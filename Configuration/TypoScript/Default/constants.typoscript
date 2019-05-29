@@ -72,7 +72,7 @@ plugin.bootstrap_package.settings.scss {
 }
 pizpalue.frame {
     #showFooter = 1
-    revealFooter = 1
+    revealFooter = 0
 }
 
 
