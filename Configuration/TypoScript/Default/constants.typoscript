@@ -59,20 +59,20 @@ user_customer {
 pizpalue.features {
     #scrollAnimation.enable = 1
     #fontAwesome.enable = 0
+    #revealFooter = 0
     #useStyle = 1
 }
 
 
 #=========================================================#
-# Frame
+# Scaffold
 #=========================================================#
 
 plugin.bootstrap_package.settings.scss {
     #navbar-height = 100px
 }
-pizpalue.frame {
+pizpalue.scaffold {
     #showFooter = 1
-    revealFooter = 0
 }
 
 
