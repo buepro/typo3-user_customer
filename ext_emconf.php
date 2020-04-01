@@ -9,7 +9,7 @@
 
 $EM_CONF[$_EXTKEY] = [
     'title'            => 'Customer template',
-    'description'      => 'Customer template used with distribution pizpalue',
+    'description'      => 'Customer template used with template pizpalue',
     'category'         => 'templates',
     'author'           => 'Roman Büchler',
     'author_email'     => 'rb@buechler.pro',

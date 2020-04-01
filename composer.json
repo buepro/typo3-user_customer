@@ -1,7 +1,7 @@
 {
-    "name": "buepro/typo3-user_customer",
+    "name": "buepro/typo3-user-customer",
     "type": "typo3-cms-extension",
-    "description": "TYPO3 user_customer extension to customize websites using the distribution pizpalue.",
+    "description": "TYPO3 user_customer extension to customize websites using the template pizpalue.",
     "keywords": [
         "TYPO3 CMS",
         "bootstrap",
@@ -23,8 +23,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Buepro\\UserCustomer\\": "Classes"
+            "Buepro\\UserCustomer\\": "Classes/"
         }
+    },
+    "replace": {
+        "buepro/typo3-user-customer": "self.version"
     },
     "extra": {
         "typo3/cms": {
